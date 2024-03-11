@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/register_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/textViewWellcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text="WellCome MagicQuiz"
+        android:textSize="37dp"
+        android:textColor="@color/pink"
+        />
+
+    <EditText
+        android:id="@+id/editTextUsernameRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewWellcome"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="Enter your user name"
+        android:padding="10dp"
+        android:textColorHint="#C8C8C8" />
+
+    <EditText
+        android:id="@+id/editTextPasswordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextUsernameRegister"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="Enter pass word"
+        android:textColorHint="#C8C8C8"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/editTextEmailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPasswordRegister"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="Enter your email"
+        android:textColorHint="#C8C8C8"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPasswordRegister"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="@color/pink"
+        android:text="Sing Up"
+        android:textColor="@color/gray"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textViewLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Đã có tài khoản? Đăng nhập ngay"
+        android:textColor="@color/gray" />
+</RelativeLayout>
