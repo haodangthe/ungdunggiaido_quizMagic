@@ -136,13 +136,13 @@
                 android:textColor="@color/black"
                 android:layout_margin="10dp"
                 />
+
             <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                tools:listitem="@layout/item_qua_tang"
-                app:spanCount="2"
                 app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-                />
+                app:spanCount="2"
+                tools:listitem="@layout/item_qua_tang" />
         </LinearLayout>
     </ScrollView>
 </FrameLayout>
