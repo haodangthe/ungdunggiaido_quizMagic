@@ -56,7 +56,6 @@
         android:background="@drawable/edit_text_bg"
         android:hint="Enter your email"
         android:textColorHint="#C8C8C8"
-        android:inputType="textPassword"
         android:padding="10dp" />
 
     <Button

@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
+
 import androidx.appcompat.widget.Toolbar;
 
 public class GetStartActivity extends AppCompatActivity {
@@ -31,6 +33,8 @@ public class GetStartActivity extends AppCompatActivity {
                 startActivity(new Intent(GetStartActivity.this, XepHangDoiThuongActivity.class));
                 // Kết thúc activity hiện tại
                 finish();
+                Toast.makeText(GetStartActivity.this, "Chuyển đến màn hình tiếp theo", Toast.LENGTH_SHORT).show();
+
             }
         });
     }
